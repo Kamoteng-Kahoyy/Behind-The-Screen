@@ -1,0 +1,15 @@
+{
+  "name": "tailwind2",
+  "version": "1.0.0",
+  "description": "I'm still going to practice tailwind in this repo but I plan to make it more complex this time.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
+}
