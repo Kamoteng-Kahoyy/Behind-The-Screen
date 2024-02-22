@@ -4,7 +4,7 @@
   "description": "I'm still going to practice tailwind in this repo but I plan to make it more complex this time.",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch", "prettier": "npx prettier --write **/*.html"
   },
   "keywords": [],
   "author": "",
